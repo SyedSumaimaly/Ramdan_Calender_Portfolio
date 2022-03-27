@@ -1,0 +1,151 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.nav {
+    background-color: #299ebb;
+    padding: 1%;
+    isolation: isolate;
+}
+
+.nav-item>a {
+    color: white;
+    font-weight: 600;
+}
+
+.nav-item>a:hover {
+
+    border-bottom: solid 2px black;
+    color: white;
+}
+
+.rh {
+    text-align: center;
+    background-color: #f4e2d2;
+    padding: 1%;
+}
+
+/* inten */
+
+#inten {
+    text-align: center;
+    background-color: #f4e2d2;
+    padding: 2%;
+    border-top: 2px solid #f1d2b6;
+}
+
+#inten>h3 {
+    color: rgb(19, 132, 224);
+    margin-top: 2%;
+}
+
+#inten>p {
+    color: rgb(0, 122, 61);
+    font-weight: 800;
+    margin-top: 2%;
+}
+
+#inten>audio {
+    width: 60%;
+    margin-top: 2%;
+}
+
+/* break */
+
+#break {
+    text-align: center;
+    background-color: #f4e2d2;
+    padding: 2%;
+    border-top: 2px solid #f1d2b6;
+}
+
+#break>h3 {
+    color: rgb(19, 132, 224);
+    margin-top: 2%;
+}
+
+#break>p {
+    color: rgb(0, 122, 61);
+    font-weight: 800;
+    margin-top: 2%;
+}
+
+#break>audio {
+    width: 60%;
+    margin-top: 2%;
+}
+
+/* calender */
+
+.calender {
+    text-align: center;
+    background-color: #f4e2d2;
+    padding: 2%;
+    border-top: 2px solid #f1d2b6;
+}
+
+.calender_2 {
+    margin-top: 3%;
+    color: rgb(19, 132, 224);
+}
+
+.calender_3 {
+    color: rgb(19, 132, 224);
+}
+
+.calender_1 {
+    background-color: #ecd9c9;
+    padding: 2%;
+}
+
+.calender_4 {
+    text-align: center;
+    background-color: #f4e2d2;
+    padding: 2%;
+}
+
+.lead {
+    font-weight: 700;
+}
+
+.trs {
+    font-weight: 500;
+}
+
+.table {
+    border: black solid 2px;
+}
+
+/* footer */
+.footer {
+    background-color: rgb(34, 33, 33);
+    color: white;
+    padding: 1%;
+    text-align: center;
+}
+
+.btn {
+    border-radius: 20px;
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    background-color: #299ebb;
+    color: white;
+    font-weight: 700;
+    isolation: isolate;
+}
+
+.btn:active {
+    background-color: #41bbda;
+}
+
+.btn:visited {
+    color: white;
+}
+
+.btn_div {
+    background-color: #f4e2d2;
+}
+

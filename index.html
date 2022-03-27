@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAMDAN CALENDER</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/7dd3a19772.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+<link rel="manifest" href="favicon_io/site.webmanifest">
+</head>
+
+<body>
+    <div class="banner">
+        <div class="nav" id="nav">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#cal">Ramadan Calendar 2022 Karachi</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#inten">INTENTION TO FAST</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#break">PRAYER FOR BREAKING THE FAST</a>
+            </li>
+        </div>
+
+
+
+        <!-- CUROSEL -->
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="img/bn2.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/bn1.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/bn3.png" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!-- CALENDER -->
+
+        <div class="rh">
+            <h1>
+                RAMADAN KAREEM / رمضان كريم
+            </h1>
+            <h2>THE ARRIVAL OF RAMADAN</h2>
+            <h3>
+                ON WEEK 2
+            </h3>
+            <h4>FIRST SUHOOR = 05:20</h4>
+            <h4>FIRST IFTAR = 06:49</h4>
+        </div>
+
+        <!-- SUHOOR DUA -->
+        <div id="inten">
+            <h2>INTENTION TO FAST / روزہ کی نیت کرنا</h2>
+            <h3>وَبِصَوْمِ غَدٍ نَّوَيْتُ مِنْ شَهْرِ رَمَضَانَ</h3>
+            <p>"میں کل کے مضان کے روزے کی نیت کرتا ہوں"</p>
+            <p>"I Intend to keep the fast for month of Ramadan"</p>
+            <audio src="audio/sehri.mp3" controls autoplay></audio>
+        </div>
+
+        <!-- IFTAR DUA -->
+        <div id="break">
+            <h2>PRAYER FOR BREAKING THE FAST / روزہ افطار کرنے کی دعا</h2>
+            <h3>
+                اَللّٰهُمَّ اِنِّی لَکَ صُمْتُ وَبِکَ اٰمَنْتُ وَعَلَيْکَ تَوَکَّلْتُ وَعَلٰیرِزْقِکَ اَفْطَرْتُ</h3>
+            <p>"اے اللّٰہ میں نے تیرے لیے روزہ رکھا اور تجھ پر ایمان لایا اور تجھ پر ہی بھروسہ کیا اور تیرے دیے ہوئے رزق
+                سے افطار کیا"</p>
+            <p>"O Allah! I fasted for you and I believe in you and I put my trust in You and I break my fast with your
+                sustenance."</p>
+            <audio src="audio/iftar.mp3" controls autoplay></audio>
+        </div>
+
+        <div class="calender">
+            <h1 class="calender_1">
+                RAMADAN CALENDER 2022 KARACHI<br />
+                رمضان کیلنڈر 2022 کراچی
+            </h1>
+            <h2 class="calender_2">
+                1443 RAMADAN /
+                1443 رمضان
+            </h2>
+            <h3 class="calender_3">
+                April - May / اَپْرَیْل - مئى
+            </h3>
+        </div>
+        <!-- calender -->
+        <div class="calender_4" id="cal">
+            <table class="table table-hover table-striped table-bordered">
+                <tr>
+                    <th><span class="lead">S.No</span></th>
+                    <th><span class="lead">DATE</span></th>
+                    <th><span class="lead">SAHOOR</span></th>
+                    <th><span class="lead">IFTAR</span></th>
+                </tr>
+                <tr class="trs">
+                    <td>01</td>
+                    <td>03 Apr 2022</td>
+                    <td>05:04 AM </td>
+                    <td>6:50 PM</td>
+                </tr>
+                <tr class="trs">
+                    <td>02</td>
+                    <td>04 Apr 2022</td>
+                    <td>05:03 AM </td>
+                    <td>6:50 PM</td>
+                </tr>
+                <tr class="trs">
+                    <td>03</td>
+                    <td>05 Apr 2022</td>
+                    <td>05:02 AM</td>
+                    <td>6:51 PM</td>
+                </tr>
+                <tr class="trs">
+                    <td>04</td>
+                    <td>06 Apr 2022</td>
+                    <td>05:00 AM </td>
+                    <td>6:51 PM</td>
+                </tr>
+                <tr class="trs">
+                    <td> 05</td>
+                    <td>07 Apr 2022</td>
+                    <td>04:59 AM </td>
+                    <td>6:52 PM</td>
+                </tr>
+                <tr class="trs">
+                    <td> 06 </td>
+                    <td>08 Apr 2022</td>
+                    <td>04:58 AM</td>
+                    <td>6:52 PM</td>
+                </tr>
+                <tr class="trs">
+                    <td>07 </td>
+                    <td>09 Apr 2022 </td>
+                    <td>04:57 AM</td>
+                    <td>6:52 PM</td>
+                </tr>
+                <tr class="trs">
+                    <td>08</td>
+                    <td>10 Apr 2022 </td>
+                    <td>04:56 AM </td>
+                    <td>6:53 PM</td>
+                </tr>
+                <tr class="trs">
+                    <td>09</td>
+                    <td>11 Apr 2022 </td>
+                    <td>04:55 AM</td>
+                    <td>6:53 PM</td>
+                </tr>
+                <tr class="trs">
+                    <td>10</td>
+                    <td>12 Apr 2022 </td>
+                    <td>04:54 AM </td>
+                    <td>6:54 PM</td>
+                </tr>
+                <tr class="trs">
+                    <td>11</td>
+                    <td>13 Apr 2022 </td>
+                    <td>04:53 AM </td>
+                    <td>6:54 PM</td>
+                </tr>
+
+                <tr class="trs">
+                    <td>12</td>
+                    <td>14 Apr 2022 </td>
+                    <td>04:52 AM </td>
+                    <td>6:55 PM</td>
+                </tr>
+
+                <tr class="trs">
+                    <td>13</td>
+                    <td>15 Apr 2022 </td>
+                    <td>04:50 AM </td>
+                    <td>6:55 PM</td>
+                </tr>
+
+                <tr class="trs">
+                    <td>14</td>
+                    <td>16 Apr 2022 </td>
+                    <td>04:49 AM </td>
+                    <td>6:56 PM</td>
+                </tr>
+
+                <tr class="trs">
+                    <td>15</td>
+                    <td>17 Apr 2022 </td>
+                    <td>04:48 AM </td>
+                    <td>6:56 PM</td>
+                </tr>
+
+                <tr class="trs">
+                    <td>16</td>
+                    <td>19 Apr 2022 </td>
+                    <td>04:47 AM </td>
+                    <td>6:56 PM</td>
+                </tr>
+
+                <tr class="trs">
+                    <td>17</td>
+                    <td>19 Apr 2022 </td>
+                    <td>04:46 AM </td>
+                    <td>6:57 PM</td>
+                </tr>
+
+                <tr class="trs">
+                    <td>18</td>
+                    <td>20 Apr 2022 </td>
+                    <td>04:45 AM </td>
+                    <td>6:57 PM</td>
+                </tr>
+
+                <tr class="trs">
+                    <td>19</td>
+                    <td>21 Apr 2022 </td>
+                    <td>04:44 AM </td>
+                    <td>6:58 PM</td>
+                </tr>
+
+                <tr class="trs">
+                    <td>20</td>
+                    <td>22 Apr 2022 </td>
+                    <td>04:43 AM </td>
+                    <td>6:58 PM</td>
+                </tr>
+
+                <tr class="trs">
+                    <td>21</td>
+                    <td>23 Apr 2022 </td>
+                    <td>04:42 AM </td>
+                    <td>6:59 PM</td>
+                </tr>
+
+                <tr class="trs">
+                    <td>22</td>
+                    <td>24 Apr 2022 </td>
+                    <td>04:41 AM </td>
+                    <td>7:59 PM</td>
+                </tr>
+
+                <tr class="trs">
+                    <td>23</td>
+                    <td>25 Apr 2022 </td>
+                    <td>04:40 AM </td>
+                    <td>7:00 PM</td>
+                </tr>
+
+                <tr class="trs">
+                    <td>24</td>
+                    <td>26 Apr 2022 </td>
+                    <td>04:39 AM </td>
+                    <td>7:00 PM</td>
+                </tr>
+                <tr class="trs">
+                    <td>25</td>
+                    <td>27 Apr 2022 </td>
+                    <td>04:38 AM </td>
+                    <td>7:01 PM</td>
+                </tr>
+                <tr class="trs">
+                    <td>26</td>
+                    <td>28 Apr 2022 </td>
+                    <td>04:37 AM </td>
+                    <td>7:01 PM</td>
+                </tr>
+                <tr class="trs">
+                    <td>27</td>
+                    <td>29 Apr 2022 </td>
+                    <td>04:36 AM </td>
+                    <td>7:02 PM</td>
+                </tr>
+
+                <td>28</td>
+                <td>30 Apr 2022 </td>
+                <td>04:35 AM </td>
+                <td>7:02 PM</td>
+                </tr>
+
+                <tr class="trs">
+                    <td>29</td>
+                    <td>01 May 2022 </td>
+                    <td>04:34 AM </td>
+                    <td>7:03 PM</td>
+                </tr>
+                <tr class="trs">
+                    <td>30</td>
+                    <td>02 May 2022</td>
+                    <td>04:33 AM </td>
+                    <td>7:03 PM</td>
+                </tr>
+
+            </table>
+        </div>
+
+        <div class="btn_div">
+            <a href="#nav" class="btn"> BACK TO TOP </a>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>© Copyright Reserved Design and Developed by <a href="https://www.linkedin.com/in/syed-sumaim-ali-3b447a22b" target="_blank"
+                    style="color: white; text-decoration: none;"> MUHAMMAD SUMAIM</a>
+            </p>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+        <script src="toole.js"></script>
+</body>
+
+</html>
